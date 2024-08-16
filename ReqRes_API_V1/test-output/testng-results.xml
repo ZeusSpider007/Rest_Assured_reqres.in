@@ -1,17 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-16T22:18:07 IST" name="Default suite" finished-at="2024-08-16T22:18:11 IST" duration-ms="3756">
+  <suite started-at="2024-08-16T22:43:22 IST" name="Default suite" finished-at="2024-08-16T22:43:28 IST" duration-ms="6173">
     <groups>
     </groups>
-    <test started-at="2024-08-16T22:18:07 IST" name="Default test" finished-at="2024-08-16T22:18:11 IST" duration-ms="3756">
+    <test started-at="2024-08-16T22:43:22 IST" name="Default test" finished-at="2024-08-16T22:43:28 IST" duration-ms="6173">
       <class name="ReqRes_API_Basic_Tests.ReqRes_API_Users">
-        <test-method signature="registeruser()[pri:0, instance:ReqRes_API_Basic_Tests.ReqRes_API_Users@3e11f9e9]" started-at="2024-08-16T22:18:07 IST" name="registeruser" finished-at="2024-08-16T22:18:10 IST" duration-ms="3073" status="PASS">
+        <test-method signature="registeruser()[pri:0, instance:ReqRes_API_Basic_Tests.ReqRes_API_Users@3e11f9e9]" started-at="2024-08-16T22:43:22 IST" name="registeruser" finished-at="2024-08-16T22:43:25 IST" duration-ms="2933" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registeruser -->
-        <test-method signature="unsucessfulregisteruser()[pri:0, instance:ReqRes_API_Basic_Tests.ReqRes_API_Users@3e11f9e9]" started-at="2024-08-16T22:18:10 IST" name="unsucessfulregisteruser" finished-at="2024-08-16T22:18:11 IST" duration-ms="638" status="PASS">
+        <test-method signature="sucessfullLogin()[pri:0, instance:ReqRes_API_Basic_Tests.ReqRes_API_Users@3e11f9e9]" started-at="2024-08-16T22:43:25 IST" name="sucessfullLogin" finished-at="2024-08-16T22:43:26 IST" duration-ms="750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sucessfullLogin -->
+        <test-method signature="unsucessfullLogin()[pri:0, instance:ReqRes_API_Basic_Tests.ReqRes_API_Users@3e11f9e9]" started-at="2024-08-16T22:43:26 IST" name="unsucessfullLogin" finished-at="2024-08-16T22:43:27 IST" duration-ms="1743" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unsucessfullLogin -->
+        <test-method signature="unsucessfulregisteruser()[pri:0, instance:ReqRes_API_Basic_Tests.ReqRes_API_Users@3e11f9e9]" started-at="2024-08-16T22:43:27 IST" name="unsucessfulregisteruser" finished-at="2024-08-16T22:43:28 IST" duration-ms="701" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- unsucessfulregisteruser -->
